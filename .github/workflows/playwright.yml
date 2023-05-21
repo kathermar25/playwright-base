@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Run Playwright tests
-        run: yarn test:webchrome
+        run: yarn test:regression
       - uses: actions/upload-artifact@v3
         if: always()
         with:
